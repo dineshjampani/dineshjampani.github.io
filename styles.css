@@ -1,0 +1,60 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+a:link,
+a:visited {
+  background-color: darkblue;
+  color: white;
+  padding: 14px 25px;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  background-color: darkblue;
+}
+
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.h4 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.h2 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.h1 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+body {
+  background-color: #cccccc;
+}
